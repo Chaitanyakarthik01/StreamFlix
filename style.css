@@ -324,33 +324,3 @@ footer{
   font-size: 40px;
   color: aqua;
 }
-
-
-@media (max-width: 400px) {
-  .main {
-    height: 95vh;
-    width: 100vw;
-    position: relative;
-    background-position: center;
-    background-size: cover;
-    background-image: linear-gradient(
-        rgb(0, 0, 0, 0.85),
-        rgba(0, 0, 0, 0.4),
-        rgba(0, 0, 0, 0.85)
-      ),
-      url("assets/img/bg.jpg");
-  }
-
-  body {
-    background-color: rgb(255, 0, 217);
-  }
-
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 76vw;
-    margin: auto;
-    height: 85px;
-  }
-}
