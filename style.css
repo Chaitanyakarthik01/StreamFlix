@@ -39,8 +39,8 @@ nav {
   position: relative;
   gap: 20px;
   flex-direction: column;
-  padding-top: 44px;
-  padding-bottom: 55px;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 #signinbox {
@@ -139,6 +139,8 @@ nav {
 
 /* top section of html is done*/
 
+/* first Section  */
+
 .box {
   padding-top: 4%;
   padding-bottom: 4%;
@@ -196,6 +198,8 @@ nav {
   background-color: rgb(40, 38, 38);
 }
 
+  /* second section */
+
 .secondSecImg {
   width: 50%;
   padding-left: 1%;
@@ -219,15 +223,8 @@ nav {
   border: 0.2px solid white;
 }
 
-.thirdSection {
-  color: rgb(233, 233, 233);
-  margin-left: 10vw;
-  margin-right: 10vw;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+/* third section */
+
 .thirdsecImg {
   width: 50%;
   padding-left: 1%;
@@ -248,6 +245,8 @@ nav {
   max-width: 63%;
   max-height: 47%;
 }
+
+/* Frequently Asked Questions section */
 
 .fourthSection {
   color: rgb(255, 255, 255);
@@ -319,6 +318,8 @@ form h3 {
 form .bottomtext{
   margin-top: 16px;
 }
+
+/* footer section */
 
 footer{
   padding:55px 11% 20px;
@@ -422,9 +423,16 @@ form #emailaddress , #password{
   height: 45px;
   width: 100%;
   border-radius: 4px;
-  box-sizing: border-box;
   color: white;
   font-weight: 600;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   cursor: pointer;
+}
+
+
+
+@media (max-width:1080px){
+  .bgtext{
+    height:
+  }
 }
