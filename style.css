@@ -66,6 +66,7 @@ nav {
   font-weight: 550;
   border-color: white;
 }
+
 .navrightcorner {
   display: flex;
   flex-direction: row;
@@ -101,6 +102,7 @@ nav {
   width: 210px;
   cursor: pointer;
 }
+
 #emailaddressbox {
   font-family: sans-serif;
   font-weight: 400;
@@ -114,6 +116,7 @@ nav {
   height: 41px;
   border: 0.1px solid white;
 }
+
 #emailaddressbox::placeholder {
   color: rgb(194, 195, 203);
   font-weight: 400;
@@ -317,7 +320,6 @@ form .bottomtext{
   margin-top: 16px;
 }
 
-
 footer{
   padding:55px 11% 20px;
 }
@@ -360,7 +362,6 @@ footer{
   font-family: sans-serif;
   margin-top: 35px;
 }
-<<<<<<< HEAD
 
 
 /* signin page css */
@@ -369,7 +370,7 @@ footer{
   width: 100%;
   background-position: center;
   background-size: cover;
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("assets/img/bg.jpg") ;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("assets/img/bg.jpg");
   
 }
 .signinpage > header{
@@ -377,7 +378,6 @@ footer{
   padding:20px 45px;
 }
   
-
 .logincredential{
   position:absolute;
   left: 50%;
@@ -428,29 +428,3 @@ form #emailaddress , #password{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
->>>>>>> 9dd330c1ac0840beb1e7292d2c4885de85f0c933
