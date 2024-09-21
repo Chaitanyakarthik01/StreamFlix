@@ -1,15 +1,16 @@
 * {
-  padding: 0%;
-  margin: 0%;
+  padding: 0;
+  margin: 0;
 }
+
 main {
-  height: 92.7vh;
+  height: 100vh;
   width: 100%;
   position: relative;
   background-position: center;
   background-size: cover;
   background-image: linear-gradient(
-      rgb(0, 0, 0, 0.85),
+      rgba(0, 0, 0, 0.85),
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.85)
     ),
@@ -39,7 +40,7 @@ nav {
   gap: 20px;
   flex-direction: column;
   padding-top: 44px;
-  padding-bottom: 42px;
+  padding-bottom: 55px;
 }
 
 #signinbox {
@@ -52,6 +53,7 @@ nav {
   height: 2.1em;
   width: 6em;
   cursor: pointer;
+  text-decoration: none;
 }
 
 #languagebox {
@@ -295,7 +297,7 @@ nav {
   display: none;
 }
 
-form{
+.formstyle{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -317,40 +319,135 @@ form .bottomtext{
 
 
 footer{
-  padding: 10% 20%;
-  border: 2px solid red;
-}
-.footerRow1{
-  font-size: 40px;
-  color: aqua;
+  padding:55px 11% 20px;
 }
 
+.footerRow1 h4{
+  font-size: 18px;
+  text-align: start;
+  letter-spacing: normal;
+  color: #ffffff ;
+  opacity: 70%;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-bottom: 10px;
 
-@media (max-width: 400px) {
-  .main {
-    height: 95vh;
-    width: 100vw;
-    position: relative;
-    background-position: center;
-    background-size: cover;
-    background-image: linear-gradient(
-        rgb(0, 0, 0, 0.85),
-        rgba(0, 0, 0, 0.4),
-        rgba(0, 0, 0, 0.85)
-      ),
-      url("assets/img/bg.jpg");
-  }
-
-  body {
-    background-color: rgb(255, 0, 217);
-  }
-
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 76vw;
-    margin: auto;
-    height: 85px;
-  }
 }
+.footerRow2{
+  margin: 20px 0%;
+}
+
+.footerRow2 {
+  font-size: 18px;
+  text-align: left;
+  letter-spacing: normal;
+  color: #ffffff ;
+  opacity: 70%;
+  font-family: sans-serif;
+  font-weight: 500;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.column1 p, .column2 p,.column3 p, .column4 p{
+  margin-bottom:10% ;
+}
+
+.footerRow4{
+  color: white;
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-top: 35px;
+}
+
+
+/* signin page css */
+.signinpage {
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("assets/img/bg.jpg") ;
+  
+}
+.signinpage > header{
+  margin: 0 8vw;
+  padding:20px 45px;
+}
+  
+
+.logincredential{
+  position:absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 300px;
+  padding: 60px 30px;
+}
+
+.logincredential h2{
+  color: white;
+  font-size: 32px;
+  font-family: sans-serif;
+  width: 100%;
+}
+
+.logincredential form {
+  margin: 25px 0px 35px;
+}
+.formcontrol{
+  height: 65px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+form #emailaddress , #password{
+  height: 100%;
+  width: 100%;
+  background-color:rgba(22,21,21,0.7);
+  border-radius: 5px;
+  border: 0.1px solid white;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  padding: 0px 16px;
+  box-sizing: border-box;
+  
+}
+
+#signin{
+  background-color: red;
+  height: 45px;
+  width: 100%;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: white;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
