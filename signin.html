@@ -17,12 +17,12 @@
             <h2>Sign In</h2>
             <form>
                 <div class="formcontrol">
-                    <input id="emailaddress" type="text" required autocomplete="off" placeholder="Email or mobile number">
+                    <input id="emailaddress" type="email" required autocomplete="off" placeholder="Email or mobile number">
                 </div>
                 <div class="formcontrol">
                     <input id="password" type="password" required autocomplete="off" placeholder="Password">
                 </div>
-                <button type="submit" id="signin">Sign In</button>
+                <button type="submit" onclick="auth()" id="signin">Sign In</button>
             </form>
         </div>
     </div>
@@ -55,6 +55,7 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

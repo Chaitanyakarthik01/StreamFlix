@@ -427,6 +427,7 @@ form #emailaddress , #password{
   font-weight: 600;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   cursor: pointer;
+  text-decoration: none;
 }
 
 
